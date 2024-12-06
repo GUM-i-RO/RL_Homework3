@@ -15,7 +15,7 @@
         model://spherical_object
       </uri>
       <name>spherical_object</name>
-      <pose>1 -0.5 0.6 0 0 0</pose>
+      <pose>0.7 -0.5 0.6 0 0 0</pose>
     </include>
     
     <gravity>0 0 0</gravity>
