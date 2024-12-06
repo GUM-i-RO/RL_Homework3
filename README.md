@@ -23,11 +23,11 @@ In the first terminal
 ```
  ros2 launch iiwa_bringup iiwa.launch.py command_interface:="velocity" robot_controller:="velocity_controller" use_aruco:=false
 ```
-In another terminal and select processed_image
+In another terminal 
 ```
  ros2 run ros2_opencv ros2_opencv_node 
 ```
-In another terminal
+In another terminal and select processed_image
 ```
  ros2 run rqt_image_view rqt_image_view
 ```
