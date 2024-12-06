@@ -75,10 +75,12 @@ To run rqt_image_view in another terminal and select videocamera
 ```
  ros2 run rqt_image_view rqt_image_view
 ```
-To run the ros2_kdl_vision_control node in another terminal, now you can try moving the aruco tag in gazebo
+To run the ros2_kdl_vision_control node in another terminal
 ```
  ros2 run ros2_kdl_package ros2_kdl_vision_control --ros-args -p task:="look-at-point"
 ```
+now you can try moving the aruco tag in gazebo
+
 ## Point 2B
 In the first terminal
 ```
