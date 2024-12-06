@@ -21,15 +21,15 @@ Source the setup files
 ### 1. To detect the sphere with ConTours
 In the first terminal
 ```
-$ ros2 launch iiwa_bringup iiwa.launch.py command_interface:="velocity" robot_controller:="velocity_controller" use_aruco:=false
+ ros2 launch iiwa_bringup iiwa.launch.py command_interface:="velocity" robot_controller:="velocity_controller" use_aruco:=false
 ```
 In another terminal
 ```
-$ ros2 run ros2_opencv ros2_opencv_node 
+ ros2 run ros2_opencv ros2_opencv_node 
 ```
 In another terminal
 ```
-$ ros2 run rqt_image_view rqt_image_view
+ ros2 run rqt_image_view rqt_image_view
 ```
 ### 2. Run Rviz and Gazebo with the launch file by using the velocity interface
 
