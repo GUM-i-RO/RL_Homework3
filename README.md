@@ -23,7 +23,7 @@ In the first terminal
 ```
  ros2 launch iiwa_bringup iiwa.launch.py command_interface:="velocity" robot_controller:="velocity_controller" use_aruco:=false
 ```
-In another terminal
+In another terminal and select processed_image
 ```
  ros2 run ros2_opencv ros2_opencv_node 
 ```
@@ -88,7 +88,7 @@ In the second terminal
 ```
  ros2 run aruco_ros single --ros-args -r /image:=/videocamera -r /camera_info:=/camera_info -p marker_id:=201 -p marker_size:=0.1 -p reference_frame:=camera_link_optical -p marker_frame:=aruco_marker_frame -p camera_frame:=camera_link_optical
 ```
-To run rqt_image_view in another terminal
+To run rqt_image_view in another terminal and select videocamera
 ```
  ros2 run rqt_image_view rqt_image_view
 ```
