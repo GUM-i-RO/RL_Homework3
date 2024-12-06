@@ -4,7 +4,7 @@
 
 Clone this package in the `src` folder of your ROS 2 workspace. Check for missing dependencies
 ```
-$ git clone https://github.com/MatteoRusso5/RL_HW3.git
+$ git clone https://github.com/GUM-i-RO/RL_Homework3.git
 ```
 ```
 $ rosdep install -i --from-path src --rosdistro humble -y
